@@ -21,6 +21,22 @@
       "required": true,
       "repeatable": false
     },
+    "Contact-Name": {
+      "required": false,
+      "repeatable": false
+    },
+    "Contact-Email": {
+      "required": false,
+      "repeatable": false
+    },
+    "Contact-Phone": {
+      "required": false,
+      "repeatable": false
+    },
+    "External-Description": {
+      "required": false,
+      "repeatable": false
+    },
     "External-Identifier": {
       "required": true,
       "repeatable": false
