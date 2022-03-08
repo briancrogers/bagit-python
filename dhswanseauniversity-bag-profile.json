@@ -1,0 +1,87 @@
+{
+  "BagIt-Profile-Info": {
+    "BagIt-Profile-Identifier": "https://raw.githubusercontent.com/briancrogers/bagit-python/master/dhswanseauniversity-bag-profile.json",
+    "Source-Organization": "Swansea University",
+    "Contact-Name": "Brian Rogers",
+    "Contact-Email": "b.c.rogers@swansea.ac.uk",
+    "External-Description": "BagIt profile for sending records to backup",
+    "Version": "1.0"
+  },
+  "Bag-Info": {
+    "Source-Organization": {
+      "required": true,
+      "values": [
+        "Swansea University",
+        "Richard Burton Archive",
+        "Swansea University Digital Humanities"
+      ],
+      "repeatable": false
+    },
+    "Organization-Address": {
+      "required": true,
+      "repeatable": false
+    },
+    "External-Identifier": {
+      "required": true,
+      "repeatable": false
+    },
+    "Internal-Sender-Description": {
+      "required": true,
+      "repeatable": false
+    },
+    "Internal-Sender-Identifier": {
+      "required": false,
+      "repeatable": false
+    },
+    "Date-Start": {
+      "required": true,
+      "repeatable": false
+    },
+    "Date-End": {
+      "required": false,
+      "repeatable": false
+    },
+    "Record-Creators": {
+      "required": true,
+      "repeatable": true
+    },
+    "Record-Type": {
+      "required": true,
+      "values": [
+        "Image"
+      ],
+      "repeatable": false
+    },
+    "Language": {
+      "required": true,
+      "repeatable": true
+    },
+    "Bagging-Date": {
+      "required": true,
+      "repeatable": false
+    },
+    "Payload-Oxum": {
+      "required": true,
+      "repeatable": false
+    },
+    "Bag-Count": {
+      "required": false,
+      "repeatable": false
+    },
+    "Bag-Group-Identifier": {
+      "required": false,
+      "repeatable": false
+    }
+  },
+  "Manifests-Required": [],
+  "Allow-Fetch.txt": false,
+  "Serialization": "optional",
+  "Accept-Serialization": [
+    "application/zip",
+    "application/x-tar",
+    "application/x-gzip"
+  ],
+  "Accept-BagIt-Version": [
+    "0.97"
+  ]
+}
